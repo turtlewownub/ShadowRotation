@@ -1,0 +1,83 @@
+ShadowRotation Command Reference
+
+GENERAL
+/shadow options
+/shadow version
+/shadow status
+/shadow modules
+/shadow diagnose
+/shadow defaults
+/shadow reset
+/shadow backup
+/shadow restore
+
+HUD
+/shadow tracker on|off
+/shadow dots on|off
+/shadow cds on|off
+/shadow queue on|off
+/shadow minimap on|off
+/shadow background on|off
+/shadow tooltips on|off
+/shadow scale <number>
+/shadow alpha <number>
+/shadow lock
+/shadow unlock
+/shadow clamp
+/shadow resetui
+/shadow recoverui
+
+HUD PRESETS
+/shadow preset custom|minimal|classic|compact|streamer
+
+PROFILES
+/shadow profile solo|dungeon|raid|pvp
+/shadow profile save
+/shadow profile reset <profile>
+/shadow profileui on|off
+/shadow profileio
+/shadow exportprofile <profile>
+
+ROTATION
+/shadow swp on|off
+/shadow ve on|off
+/shadow dp on|off
+/shadow mb on|off
+/shadow mb before|after|off
+/shadow order swp ve dp
+/shadow refresh <seconds>
+/shadow throttle <seconds>
+/shadow skipdots <percent>
+/shadow smart on|off
+/shadow verifydelay <seconds>
+
+ROTATION PACKS
+/shadow pack standard|mana|maxdps|pvp|leveling
+
+PVP
+/shadow pvpassist on|off
+/shadow pvpsuggest
+
+COACHING AND INSIGHTS
+/shadow report
+/shadow history
+/shadow coach
+/shadow analytics
+/shadow insights
+/shadow why
+/shadow explain
+/shadow decisionlog
+/shadow simulate
+/shadow simulation on|off
+/shadow lookahead <seconds>
+/shadow trends
+/shadow stats
+/shadow tune
+
+DIAGNOSTICS
+/shadow health
+/shadow modules
+/shadow castinfo
+/shadow testve
+/shadow testdp
+/shadow diagreset

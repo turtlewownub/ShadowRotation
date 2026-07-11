@@ -1,0 +1,20 @@
+ShadowRotation v1.0.2
+
+Primary fix
+- Trackers no longer jump up and to the right when dragging begins.
+
+Technical change
+- The HUD now records the cursor and tracker anchor at drag start, then applies only the cursor movement delta. This avoids the scale mismatch in OctoWoW/Turtle WoW that affected StartMoving and earlier cursor-center calculations.
+- On release, each tracker remains anchored CENTER-to-CENTER and its exact offsets are saved.
+
+Also included
+- Working minimap button from the v1.0.0 baseline.
+- Consistent v1.0.2 version reporting.
+
+Installation
+1. Close the game completely.
+2. Move any backup ShadowRotation addon folders out of Interface\AddOns.
+3. Delete the active Interface\AddOns\ShadowRotation folder.
+4. Extract the ShadowRotation folder from this ZIP into Interface\AddOns.
+5. Start the game and run /shadow version.
+6. Run /shadow unlock and test all four trackers.

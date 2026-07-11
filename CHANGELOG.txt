@@ -1,0 +1,100 @@
+ShadowRotation v1.0.2 Stable Drag Release
+- Replaced StartMoving-based tracker movement with cursor-delta movement for OctoWoW/Turtle WoW compatibility.
+- Fixed trackers jumping up and to the right when first grabbed.
+- Tracker movement now uses one consistent UIParent coordinate space regardless of tracker scale.
+- Tracker positions are saved directly from their CENTER-to-CENTER anchor.
+- Locking or reapplying HUD settings no longer changes a tracker's newly placed position.
+- Preserved the working v1.0.0 minimap button behavior.
+- Updated in-game, options, tooltip, and TOC version reporting to v1.0.2.
+
+ShadowRotation v1.0.0 Public Release
+- First shareable public release.
+- Includes the v19.1 stack-overflow and circular-copy fixes.
+- Includes modular HUD, profiles, rotation packs, coach, analytics, insights, PvP support, and import/export.
+- Documentation, installation guide, command reference, and MIT license added.
+- HUD appearance and saved positioning behavior unchanged.
+
+ShadowRotation v19.1 CopyFix
+- Fixed Core.lua stack overflow during initialization.
+- Added circular-reference and depth protection to SR.Copy.
+- Added cycle-safe SR.DeepCopy for backups and profile data.
+- Added malformed SavedVariables guard.
+- No HUD, tracker-position, minimap, profile, or rotation changes.
+
+ShadowRotation v19.0 Insights
+- Fixed recursive recommendation logging in v18.
+- Added conservative one-cast lookahead before Mind Blast.
+- Added simulation summary, trends, spell statistics, timeline, and tuning suggestions.
+- Added mana snapshots to fight history.
+- Added /shadow simulate, simulation, lookahead, trends, stats, tune, and insights.
+- Kept HUD visuals, module positions, minimap, and no-background design unchanged.
+
+ShadowRotation v18.0 Rotation Packs
+- Kept the HUD and tracker layout unchanged.
+- Added Standard, Mana Saver, Max DPS, PvP Pressure, and Leveling rotation packs.
+- Added /shadow why and /shadow explain decision output.
+- Added a rolling decision log.
+- Added a System Health window and module status.
+- Coach reports now record the rotation pack used.
+- Added Rotation Pack controls to the existing Rotation tab.
+
+ShadowRotation v17.2 Intelligence
+- Kept all HUD tracker visuals and positions unchanged.
+- Added richer coach averages, best score, and common-issue summary.
+- Added optional low-health DoT skipping per profile.
+- Added optional per-profile tracker visibility, scale, and alpha saving.
+- Added safer PvP Silence detection and optional PvP Assist casting.
+- Added PvP controls directly to the Profiles tab.
+- Extended SR17 profile import/export for the new settings.
+- Cleaned duplicate buttons from the About page.
+
+ShadowRotation v17.1 Stable
+- Fixed ProfileIO.lua syntax error.
+- Added in-game /shadow modules self-check.
+- Added reproducible source validation and release-building tools.
+- No HUD, minimap, frame-position, preset, or rotation behavior changes.
+
+ShadowRotation v17.0 Rotation Coach
+- Added last-10-fights history with estimated score and grade.
+- Added coaching tips and optional automatic summaries.
+- Added PvP recommendation module for Silence, Psychic Scream, Shadowguard, and Touch of Weakness.
+- Added SR17 profile import/export window and parser.
+- Kept v16.5 HUD presets, positions, no-background default, minimap, and rotation engine unchanged.
+
+ShadowRotation v16.5 Presets
+- Added Custom, Minimal, Classic, Compact, and Streamer HUD presets.
+- Custom layout is captured before switching presets.
+- Switching back to Custom restores the saved manual positions.
+- Background remains off in every preset.
+- Presets unlock frames so you can adjust them.
+
+ShadowRotation v16.2 UI Recovery
+- Restores saved separated-layout positions when available.
+- No longer forces trackers into new positions.
+- Unlocks frames after recovery.
+- Forces the minimap button visible and reapplies it after creation.
+- Adds /shadow recoverui alias.
+
+ShadowRotation v16.1 Safe UI
+- Removed unsupported CreateFrame("Cooldown") usage on Turtle WoW.
+- Restored tracker and minimap loading.
+- Added one-time safe UI position migration.
+- Kept separated layout and no-background defaults.
+- Added /shadow safeui.
+
+ShadowRotation v16.0 Professional
+- Preserves the separated layout as the default.
+- Adds an optional combined layout without deleting separated positions.
+- Keeps backgrounds off by default.
+- Adds optional cooldown swirls when supported by the client.
+- Adds an analytics/coach window.
+- Adds settings backup and restore.
+- Adds one-time version migration notice.
+
+ShadowRotation v15.0 Smart Core
+- Added real target-debuff presence verification using UnitDebuff index scanning.
+- Added delayed failed-cast recovery for SW:P, VE, and DP.
+- Added Smart Aura Verification per profile.
+- Added diagnostics and counters for aura scans, failed DoTs, busy skips, and throttle skips.
+- Added /shadow diagnose, /shadow smart, /shadow verifydelay, and /shadow diagreset.
+- Preserved the stable v14.4 modular UI and frame positioning.

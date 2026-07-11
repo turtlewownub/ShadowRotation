@@ -1,0 +1,21 @@
+## Interface: 11200
+## Title: ShadowRotation
+## Notes: Intelligent Shadow Priest rotation, profiles, coaching, analytics, and modular HUD for Turtle WoW
+## Author: ShadowRotation Project
+## Version: 1.0.2
+## SavedVariablesPerCharacter: ShadowRotationDB, ShadowRotationBackup
+
+Core.lua
+Casting.lua
+Rotation.lua
+PvP.lua
+Coach.lua
+ProfileIO.lua
+Health.lua
+Insights.lua
+HUD.lua
+Minimap.lua
+Options.lua
+Wizard.lua
+Commands.lua
+Bindings.xml
