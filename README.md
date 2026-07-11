@@ -4,7 +4,9 @@
 
 ## Download
 
-Use the latest file on the [Releases](../../releases) page:
+Download the latest version from the **Releases** page.
+
+Click **Releases** on the right side of the repository to download the newest version.
 
 `ShadowRotation_v1.0.0_SHAREABLE_INSTALL.zip`
 
