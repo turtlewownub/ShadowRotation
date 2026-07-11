@@ -8,7 +8,13 @@ Download the latest version from the **Releases** page.
 
 Click **Releases** on the right side of the repository to download the newest version.
 
-`ShadowRotation_v1.0.0_SHAREABLE_INSTALL.zip`
+## Official Website
+
+For complete documentation, screenshots, installation guides, commands, FAQs, and release notes, visit:
+
+[Official ShadowRotation Website](https://turtlewownub.github.io/ShadowRotation/)
+
+
 
 ## Installation
 
